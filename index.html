@@ -42,7 +42,7 @@
 
 
 
-		let query = "http://api.openweathermap.org/data/2.5/weather?q=" + default_city + "&units=" + temperature +"&APPID=" + API_ID;
+		let query = "https://api.openweathermap.org/data/2.5/weather?q=" + default_city + "&units=" + temperature +"&APPID=" + API_ID;
         console.log("Query is :" + query)
 
         $.getJSON(query,function(json){
